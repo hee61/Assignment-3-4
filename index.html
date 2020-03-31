@@ -31,11 +31,6 @@
 	</head>
 
 	<body>
-	<ul>
-<?php for($i=1;$i<=5;$i++){ ?>
-<li>Menu Item <?php echo $i; ?></li>
-<?php } ?>
-</ul>
 	<div class="row">
 		<div class="column">
 			<form action="/bmi.php" method = "post">
@@ -75,29 +70,5 @@
 			</form>
 		</div>
 	</div>
-	
-	<?php 
-			echo 'we have made it this far';
-			$bmi_button = $_POST['bmiButton'];
-			
-			if ( $bmi_button ) {
-				$feet = $_POST['feet'];
-				$inches = $_POST['inches'];
-				$weight_lbs = $_POST['Weight'];
-				
-				$total_inches = $inches + ($feet * 12);
-				
-				$weight_kg = $weight_lbs * .45;
-				$meters = $total_inches * .025;
-				$meters_squared = pow($meters, 2);
-				$bmi = $weight_kg/$meters_squared;
-				echo $bmi;
-			}
-			
-			
-		?>
-		
-		
-		
 	</body>
 </html>
