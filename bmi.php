@@ -10,7 +10,6 @@
 	
 
 	<?php 
-	echo 'we have made it this far';
 	$bmi_button = $_POST['bmiButton'];
 	$feet = $_POST['feet'];
 		
@@ -35,7 +34,7 @@
 	{
 		$status = "Normal";
 	}
-	else 
+	else
 	{
 		$status = "Obese";
 	}
