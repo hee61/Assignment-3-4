@@ -9,8 +9,7 @@
 	<body>
 	
 
-	<?php 
-	echo 'we have made it this far';
+	<?php
 	$age = $_POST['age'];
 	$salary = $_POST['salary'];
 	$amount_saved = $_POST['companyMatch'];

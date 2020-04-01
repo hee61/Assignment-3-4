@@ -15,7 +15,7 @@
 		
 	$inches = $_POST['inches'];
 	$weight_lbs = $_POST['Weight'];
-	$status;
+	$status = "";
 	$total_inches = $inches + ($feet * 12);
 	
 	$weight_kg = $weight_lbs * .45;
