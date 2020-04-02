@@ -1,0 +1,15 @@
+{
+  "name": "testing_and_qa_assignment3/4",
+  "version": "1.0.0",
+  "description": "Learning test driven development",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hee61/Assignment-3-4.git"
+  },
+  "dependencies": {
+  "autoprefixer-cli": "1.0.0",
+    "node-sass": "4.11.0",
+    "watch": "1.0.2"
+  }
+}
