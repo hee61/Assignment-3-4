@@ -1,5 +1,13 @@
 {
-    "require": {
-        "monolog/monolog": "1.0.*"
-    }
+    "name": "hee61/scripts",
+    "description": "Using the init command to create a new project.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hannah Eakes",
+            "email": "hee61@msstate.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
